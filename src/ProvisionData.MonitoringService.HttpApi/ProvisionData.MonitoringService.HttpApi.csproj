@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>ProvisionData.MonitoringService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="7.4.0" />
+    <ProjectReference Include="..\ProvisionData.MonitoringService.Application.Contracts\ProvisionData.MonitoringService.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

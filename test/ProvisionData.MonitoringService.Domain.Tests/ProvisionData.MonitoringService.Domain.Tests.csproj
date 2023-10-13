@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ProvisionData.MonitoringService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProvisionData.MonitoringService.EntityFrameworkCore.Tests\ProvisionData.MonitoringService.EntityFrameworkCore.Tests.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>ProvisionData</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="7.4.0" />
+    <ProjectReference Include="..\..\shared\ProvisionData.Internet\src\ProvisionData.Internet\ProvisionData.Internet.csproj" />
+    <ProjectReference Include="..\ProvisionData.MonitoringService.Domain.Shared\ProvisionData.MonitoringService.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

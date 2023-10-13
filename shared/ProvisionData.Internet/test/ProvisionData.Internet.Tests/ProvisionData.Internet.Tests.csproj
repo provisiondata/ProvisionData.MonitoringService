@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<RootNamespace>ProvisionData</RootNamespace>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\ProvisionData.Internet\ProvisionData.Internet.csproj" />
+	</ItemGroup>
+
+</Project>

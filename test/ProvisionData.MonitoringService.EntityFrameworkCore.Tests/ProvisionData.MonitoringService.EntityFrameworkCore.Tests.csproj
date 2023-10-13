@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ProvisionData.MonitoringService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.10" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="7.4.0" />
+  </ItemGroup>
+
+	<ItemGroup>
+    <ProjectReference Include="..\..\src\ProvisionData.MonitoringService.EntityFrameworkCore\ProvisionData.MonitoringService.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\ProvisionData.MonitoringService.TestBase\ProvisionData.MonitoringService.TestBase.csproj" />
+  </ItemGroup>
+
+</Project>
